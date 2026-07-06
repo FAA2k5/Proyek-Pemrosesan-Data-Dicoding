@@ -1,0 +1,29 @@
+- Nama Proyek: ETL Pipeline untuk Fashion Studio
+- Sumber Data: https://fashion-studio.dicoding.dev/
+- Target Data: CSV, Google Sheets, PostgreSQL
+
+## Persiapan Environment
+```bash
+# Buat virtual environment
+python3 -m venv .env
+
+# Aktifkan virtual environment (Windows)
+.env\Scripts\activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+## Cara Menjalankan Skrip ETL Pipeline
+python main.py --csv
+python main.py --gsheets
+python main.py --postgres
+python main.py --all
+
+# Cara menjalankan unit test
+python -m pytest tests -v
+
+# Cara menjalankan test coverage
+python -m pytest tests -v --cov=utils --cov-report=term
+
+# URL Google Sheets
+https://docs.google.com/spreadsheets/d/1bKTb-7Yd6pymCx13IQmgJY45Yb872u5yq35d6iuCIAI/edit?usp=sharing

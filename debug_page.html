@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion Studio</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!-- Styles CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <a class='navbar-brand' href='/'>Fashion Studio</a>
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a href="#" class="nav-link">Shop</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Most wanted</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">New arrival</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Brands</a></li>
+                </ul>
+                <div class="navbar-right-items">
+                    <div class="search-box">
+                        <input type="text" class="search-input" placeholder="Search...">
+                        <button class="search-button">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 0 0 1 11 0z"/>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="breadcrumbs">
+            <a href='/'>Home</a> <span>/</span> Browse Products
+        </div>
+
+        <div class="product-header">
+            <h2 class="product-count">Fashion Products</h2>
+            <div class="sort-by">
+                <span class="sort-label">Sort by:</span>
+                <select class="sort-select">
+                    <option>Popularity</option>
+                    <option>Newest Items</option>
+                    <option>Price: Low to High</option>
+                    <option>Price: High to Low</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="collection-grid" id="collectionList">
+            
+                    <div class="collection-card">
+                        <div style="position: relative;">
+                            <img src="https://picsum.photos/280/350?random=1" class="collection-image" alt="Unknown Product">
+                            
+                        </div>
+                        <div class="product-details">
+                            <h3 class="product-title">Unknown Product</h3>
+                            <div class="price-container"><span class="price">$100.00</span></div>
+                            <p style="font-size: 14px; color: #777;">Rating: ⭐ Invalid Rating / 5</p>
+                            <p style="font-size: 14px; color: #777;">5 Colors</p>
+                            <p style="font-size: 14px; color: #777;">Size: M</p>
+                            <p style="font-size: 14px; color: #777;">Gender: Men</p>
+                        </div>
+                    </div>
+                
+                    <div class="collection-card">
+                        <div style="position: relative;">
+                            <img src="https://picsum.photos/280/350?random=2" class="collection-image" alt="T-shirt 2">
+                            
+                        </div>
+                        <div class="product-details">
+                            <h3 class="product-title">T-shirt 2</h3>
+                            <div class="price-container"><span class="price">$102.15</span></div>
+                            <p style="font-size: 14px; color: #777;">Rating: ⭐ 3.9 / 5</p>
+                            <p style="font-size: 14px; color: #777;">3 Colors</p>
+                            <p style="font-size: 14px; color: #777;">Size: M</p>
+                            <p style="font-size: 14px; color: #777;">Gender: Women</p>
+                        </div>
+                    </div>
+                
+                    <div class="collection-card">
+                        <div style="position: relative;">
+                            <img src="https://picsum.photos/280/350?random=3" class="collection-image" alt="Hoodie 3">
+                            
+                        </div>
+                        <div class="product-details">
+                            <h3 class="product-title">Hoodie 3</h3>
+                            <div class="price-container"><span class="price">$496.88</span></div>
+                            <p style="font-size: 14px; color: #777;">Rating: ⭐ 4.8 / 5</p>
+                            <p style="font-size: 14px; color: #777;">3 Colors</p>
+                            <p style="font-size: 14px; color: #777;">Size: L</p>
+                            <p style="font-size: 14px; color: #777;">Gender: Unisex</p>
+                        </div>
+                    </div>
+                
+                    <div class="collection-card">
+                        <div style="position: relative;">
+                            <img src="https://picsum.photos/280/350?random=4" class="collection-image" alt="Pants 4">
+                            
+                        </div>
+                        <div class="product-details">
+                            <h3 class="product-title">Pants 4</h3>
+                            <div class="price-container"><span class="price">$467.31</span></div>
+                            <p style="font-size: 14px; color: #777;">Rating: ⭐ 3.3 / 5</p>
+                            <p style="font-size: 14px; color: #777;">3 Colors</p>
+                            <p style="font-size: 14px; color: #777;">Size: XL</p>
+                            <p style="font-size: 14px; color: #777;">Gender: Men</p>
+                        </div>
+                    </div>
+                
+                    <div class="collection-card">
+                        <div style="position: relative;">
+                            <img src="https://picsum.photos/280/350?random=5" class="collection-image" alt="Outerwear 5">
+                            
+                        </div>
+                        <div class="product-details">
+                            <h3 class="product-title">Outerwear 5</h3>
+                            <div class="price-container"><span class="price">$321.59</span></div>
+                            <p style="font-size: 14px; color: #777;">Rating: ⭐ 3.5 / 5</p>
+                            <p style="font-size: 14px; color: #777;">3 Colors</p>
+                            <p style="font-size: 14px; color: #777;">Size: XXL</p>
+                            <p style="font-size: 14px; color: #777;">Gender: Women</p>
+                        </div>
+                    </div>
+                
+                    <div class="collection-card">
+                        <div style="position: relative;">
+                            <img src="https://picsum.photos/280/350?random=6" class="collection-image" alt="Jacket 6">
+                            
+                        </div>
+                        <div class="product-details">
+                            <h3 class="product-title">Jacket 6</h3>
+                            <div class="price-container"><span class="price">$153.37</span></div>
+                            <p style="font-size: 14px; color: #777;">Rating: ⭐ 3.3 / 5</p>
+                            <p style="font-size: 14px; color: #777;">3 Colors</p>
+                            <p style="font-size: 14px; color: #777;">Size: S</p>
+                            <p style="font-size: 14px; color: #777;">Gender: Unisex</p>
+                        </div>
+                    </div>
+                
+                    <div class="collection-card">
+                        <div style="position: relative;">
+                            <img src="https://picsum.photos/280/350?random=7" class="collection-image" alt="Crewneck 7">
+                            
+                        </div>
+                        <div class="product-details">
+                            <h3 class="product-title">Crewneck 7</h3>
+                            <div class="price-container"><span class="price">$430.75</span></div>
+                            <p style="font-size: 14px; color: #777;">Rating: ⭐ 4.3 / 5</p>
+                            <p style="font-size: 14px; color: #777;">3 Colors</p>
+                            <p style="font-size: 14px; color: #777;">Size: M</p>
+                            <p style="font-size: 14px; color: #777;">Gender: Men</p>
+                        </div>
+                    </div>
+                
+                    <div class="collection-card">
+                        <div style="position: relative;">
+                            <img src="https://picsum.photos/280/350?random=8" class="collection-image" alt="T-shirt 8">
+                            
+                        </div>
+                        <div class="product-details">
+                            <h3 class="product-title">T-shirt 8</h3>
+                            <div class="price-container"><span class="price">$487.66</span></div>
+                            <p style="font-size: 14px; color: #777;">Rating: ⭐ 3.1 / 5</p>
+                            <p style="font-size: 14px; color: #777;">3 Colors</p>
+                            <p style="font-size: 14px; color: #777;">Size: L</p>
+                            <p style="font-size: 14px; color: #777;">Gender: Women</p>
+                        </div>
+                    </div>
+                
+                    <div class="collection-card">
+                        <div style="position: relative;">
+                            <img src="https://picsum.photos/280/350?random=9" class="collection-image" alt="Hoodie 9">
+                            
+                        </div>
+                        <div class="product-details">
+                            <h3 class="product-title">Hoodie 9</h3>
+                            <div class="price-container"><span class="price">$248.26</span></div>
+                            <p style="font-size: 14px; color: #777;">Rating: ⭐ 3.2 / 5</p>
+                            <p style="font-size: 14px; color: #777;">3 Colors</p>
+                            <p style="font-size: 14px; color: #777;">Size: XL</p>
+                            <p style="font-size: 14px; color: #777;">Gender: Unisex</p>
+                        </div>
+                    </div>
+                
+                    <div class="collection-card">
+                        <div style="position: relative;">
+                            <img src="https://picsum.photos/280/350?random=10" class="collection-image" alt="Pants 10">
+                            
+                        </div>
+                        <div class="product-details">
+                            <h3 class="product-title">Pants 10</h3>
+                            <div class="price-container"><span class="price">$193.76</span></div>
+                            <p style="font-size: 14px; color: #777;">Rating: ⭐ 4.2 / 5</p>
+                            <p style="font-size: 14px; color: #777;">3 Colors</p>
+                            <p style="font-size: 14px; color: #777;">Size: XXL</p>
+                            <p style="font-size: 14px; color: #777;">Gender: Men</p>
+                        </div>
+                    </div>
+                
+                    <div class="collection-card">
+                        <div style="position: relative;">
+                            <img src="https://picsum.photos/280/350?random=11" class="collection-image" alt="Unknown Product">
+                            
+                        </div>
+                        <div class="product-details">
+                            <h3 class="product-title">Unknown Product</h3>
+                            <div class="price-container"><span class="price">$100.00</span></div>
+                            <p style="font-size: 14px; color: #777;">Rating: ⭐ Invalid Rating / 5</p>
+                            <p style="font-size: 14px; color: #777;">5 Colors</p>
+                            <p style="font-size: 14px; color: #777;">Size: M</p>
+                            <p style="font-size: 14px; color: #777;">Gender: Men</p>
+                        </div>
+                    </div>
+                
+                    <div class="collection-card">
+                        <div style="position: relative;">
+                            <img src="https://picsum.photos/280/350?random=12" class="collection-image" alt="Jacket 12">
+                            
+                        </div>
+                        <div class="product-details">
+                            <h3 class="product-title">Jacket 12</h3>
+                            <div class="price-container"><span class="price">$532.99</span></div>
+                            <p style="font-size: 14px; color: #777;">Rating: ⭐ 3.9 / 5</p>
+                            <p style="font-size: 14px; color: #777;">3 Colors</p>
+                            <p style="font-size: 14px; color: #777;">Size: M</p>
+                            <p style="font-size: 14px; color: #777;">Gender: Unisex</p>
+                        </div>
+                    </div>
+                
+                    <div class="collection-card">
+                        <div style="position: relative;">
+                            <img src="https://picsum.photos/280/350?random=13" class="collection-image" alt="Crewneck 13">
+                            
+                        </div>
+                        <div class="product-details">
+                            <h3 class="product-title">Crewneck 13</h3>
+                            <div class="price-container"><span class="price">$340.45</span></div>
+                            <p style="font-size: 14px; color: #777;">Rating: ⭐ 3.2 / 5</p>
+                            <p style="font-size: 14px; color: #777;">3 Colors</p>
+                            <p style="font-size: 14px; color: #777;">Size: L</p>
+                            <p style="font-size: 14px; color: #777;">Gender: Men</p>
+                        </div>
+                    </div>
+                
+                    <div class="collection-card">
+                        <div style="position: relative;">
+                            <img src="https://picsum.photos/280/350?random=14" class="collection-image" alt="T-shirt 14">
+                            
+                        </div>
+                        <div class="product-details">
+                            <h3 class="product-title">T-shirt 14</h3>
+                            <div class="price-container"><span class="price">$203.05</span></div>
+                            <p style="font-size: 14px; color: #777;">Rating: ⭐ 3.8 / 5</p>
+                            <p style="font-size: 14px; color: #777;">3 Colors</p>
+                            <p style="font-size: 14px; color: #777;">Size: XL</p>
+                            <p style="font-size: 14px; color: #777;">Gender: Women</p>
+                        </div>
+                    </div>
+                
+                    <div class="collection-card">
+                        <div style="position: relative;">
+                            <img src="https://picsum.photos/280/350?random=15" class="collection-image" alt="Hoodie 15">
+                            
+                        </div>
+                        <div class="product-details">
+                            <h3 class="product-title">Hoodie 15</h3>
+                            <div class="price-container"><span class="price">$136.51</span></div>
+                            <p style="font-size: 14px; color: #777;">Rating: ⭐ 3.6 / 5</p>
+                            <p style="font-size: 14px; color: #777;">3 Colors</p>
+                            <p style="font-size: 14px; color: #777;">Size: XXL</p>
+                            <p style="font-size: 14px; color: #777;">Gender: Unisex</p>
+                        </div>
+                    </div>
+                
+                    <div class="collection-card">
+                        <div style="position: relative;">
+                            <img src="https://picsum.photos/280/350?random=16" class="collection-image" alt="Pants 16">
+                            
+                        </div>
+                        <div class="product-details">
+                            <h3 class="product-title">Pants 16</h3>
+                            <p class="price">Price Unavailable</p>
+                            <p style="font-size: 14px; color: #777;">Rating: Not Rated</p>
+                            <p style="font-size: 14px; color: #777;">8 Colors</p>
+                            <p style="font-size: 14px; color: #777;">Size: S</p>
+                            <p style="font-size: 14px; color: #777;">Gender: Men</p>
+                        </div>
+                    </div>
+                
+                    <div class="collection-card">
+                        <div style="position: relative;">
+                            <img src="https://picsum.photos/280/350?random=17" class="collection-image" alt="Outerwear 17">
+                            
+                        </div>
+                        <div class="product-details">
+                            <h3 class="product-title">Outerwear 17</h3>
+                            <div class="price-container"><span class="price">$52.60</span></div>
+                            <p style="font-size: 14px; color: #777;">Rating: ⭐ 3.8 / 5</p>
+                            <p style="font-size: 14px; color: #777;">3 Colors</p>
+                            <p style="font-size: 14px; color: #777;">Size: M</p>
+                            <p style="font-size: 14px; color: #777;">Gender: Women</p>
+                        </div>
+                    </div>
+                
+                    <div class="collection-card">
+                        <div style="position: relative;">
+                            <img src="https://picsum.photos/280/350?random=18" class="collection-image" alt="Jacket 18">
+                            
+                        </div>
+                        <div class="product-details">
+                            <h3 class="product-title">Jacket 18</h3>
+                            <div class="price-container"><span class="price">$343.75</span></div>
+                            <p style="font-size: 14px; color: #777;">Rating: ⭐ 3.8 / 5</p>
+                            <p style="font-size: 14px; color: #777;">3 Colors</p>
+                            <p style="font-size: 14px; color: #777;">Size: L</p>
+                            <p style="font-size: 14px; color: #777;">Gender: Unisex</p>
+                        </div>
+                    </div>
+                
+                    <div class="collection-card">
+                        <div style="position: relative;">
+                            <img src="https://picsum.photos/280/350?random=19" class="collection-image" alt="Crewneck 19">
+                            
+                        </div>
+                        <div class="product-details">
+                            <h3 class="product-title">Crewneck 19</h3>
+                            <div class="price-container"><span class="price">$81.81</span></div>
+                            <p style="font-size: 14px; color: #777;">Rating: ⭐ 3.6 / 5</p>
+                            <p style="font-size: 14px; color: #777;">3 Colors</p>
+                            <p style="font-size: 14px; color: #777;">Size: XL</p>
+                            <p style="font-size: 14px; color: #777;">Gender: Men</p>
+                        </div>
+                    </div>
+                
+                    <div class="collection-card">
+                        <div style="position: relative;">
+                            <img src="https://picsum.photos/280/350?random=20" class="collection-image" alt="T-shirt 20">
+                            
+                        </div>
+                        <div class="product-details">
+                            <h3 class="product-title">T-shirt 20</h3>
+                            <div class="price-container"><span class="price">$82.85</span></div>
+                            <p style="font-size: 14px; color: #777;">Rating: ⭐ 3.4 / 5</p>
+                            <p style="font-size: 14px; color: #777;">3 Colors</p>
+                            <p style="font-size: 14px; color: #777;">Size: XXL</p>
+                            <p style="font-size: 14px; color: #777;">Gender: Women</p>
+                        </div>
+                    </div>
+                
+        </div>
+    </div>
+
+    <div class="container">
+        <nav aria-label="Product pagination">
+                <ul class="pager pagination">
+                    <li class="page-item previous disabled"><span class="page-link">Previous</span></li>
+                    <li class="page-item current"><span class="page-link">1 of 50</span></li>
+                    <li class="page-item next"><a class='page-link' href='/page2'>Next</a></li>
+                </ul>
+            </nav>
+    </div>
+
+    <footer>
+        <p>© 2025 Copyright. All right reserved</p>
+    </footer>
+
+    <!-- SCRIPT SECTION REMOVED - No Javascript needed for static pages -->
+</body>
+</html>

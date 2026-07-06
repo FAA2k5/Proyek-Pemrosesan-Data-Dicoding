@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "alert-diode-495314-h3",
+  "private_key_id": "11546e26832ad3cbcd96021d9ec32cf42be66fe0",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDXejGkHhHvWds+\nEHUWANtQrjh+P++kIufU5PHymvsEkfDoaTF/W+xx/wuXBTcduGF5DvRDHcLBXa3H\nkqyubMa5i1iRLbTEqUEBjyNaARGOJlPsIth7eerxp+/kxPRjOPSmXRiStjR9fpHL\nXtE7Kpa+Yn6f0Sfzwv5Nsuk+booNoS+JHVNjBN+tzGgW20I0LOl39NwFj3UE4kSz\nwJkNRSJszqXwRwcsHceaJ4m6RRAEziScdYAdJ9Q7nHZQ/N8y3aR1BPjVqJxdcJjk\nmRrS5oJsIWIuDCvE8UZrqwjIJq1wHihR6WYY7BiJhiyXY8TPq2DZQ6GrlW/IGZQ+\nXm1ibzWXAgMBAAECggEAFpxW6y7QmPon3GpjruxmFyBBA1Z4MhQLmbZwgRGsN32M\n9wZa0E94DzpBIBbHAtJfQBHGpehQkHPhEWkdv6vgaoXpxEo0htJv5Nb9Uat9CRqS\ngdviNYrEkZkavjnAn0zRt0dblcGS3nxSljGb6QZ+DPpO6TxMYfLbNpIIkamNyQIo\noznC6G0PYPtUQydhonUOscghj9M/CnaJFYvUCLQJL8Jobl1V1fSItaA48gBlWGDu\nrqYSpJmdeR8gX2UIgR7NVH7BtKui8zXgeATWfKIblHmgZcPqne2gnx/yON0qSter\nublYoyO97nEaqd9Pc+okULBQikgNn2F/lmEoM90o+QKBgQD0acH6hYK/yV6j5+ac\nPdUR+l+0xsZfuGdBRMmUeXdVl93A/7uulfjmSKeDwscPdjmfbcCqIqQqtt4XArbi\nmzo5iSDmwRLdbyVIf89wXyg2P+uUjfg/c4bLYiy44trIF1S59yKKl0gzMpboIn9e\nqMz8jdJOSsuZ5P3roWIPmA/CjQKBgQDhsUQdCW+E4jTD1JXXvSOSS1WrxRCsQlVu\ntuNN0UK6yPgu89QwX0KGLy5BOLLZeoFYybj+h4PYeEAyUWKd7A3wvHZcCBoFs8g3\nt5DgyKt9n60UHapDSFxtFjQSS2RF1cqjbGtE6TmKNGNVK/fkosU4AKucw7/APjHF\nlEjX2i4hswKBgQCr2qTzQucxdSTfeNKU74Ee9/5NfSrE6UNpCDX4+QNoorTg3LAZ\nzQfK3DE1G0KeY5GWwTQkLOFjy1sTsOvpIB5rkDkbJ4zdOCZt+LhiGfaLVpyNwtlX\nvCJ+ZVRu18vfv0/qxpN6AW9Z2Gt1Y7RNWcFwn0PNmxfX6MSF5t6tek0yjQKBgQCp\nrTLPPcPIvKP8wntw+bKfjuG2xO5XA3vlQ7w6SeQIN4VXD1tsjoGeDiSRRkY3+MD7\n9pSNT2aRPT7OVZ91qP2GCrpVUIX32YTiVrCmPlenl39xCyhxcxqBrNqzElkto6C4\nIo+2/DyVKfOwGeFB1Bm/k8lxjz0/E8MpjuUA2vgpvwKBgFHPMEj6GNRwwF21mU/s\n+3LeiENT8CYj3XtGi/pZP30PNC8GSKKKAf9zftHTxigI8vrAy2pm9wf+wmG7J4GG\nX/5tFJkZFL4SszQiB1okCNgPX7Qj4JvhUveNC1K0HXlb5HvDhU9q3UJkVoidM986\nRg4nFt/LSI8LTbhlb1hBDliy\n-----END PRIVATE KEY-----\n",
+  "client_email": "fashion-etl-service@alert-diode-495314-h3.iam.gserviceaccount.com",
+  "client_id": "117290183619885126940",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/fashion-etl-service%40alert-diode-495314-h3.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
